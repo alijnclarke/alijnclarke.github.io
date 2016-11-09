@@ -1,9 +1,9 @@
-title: Stack Problems
-description: My Personal Stack Problems
-author: Agus Makmun
-github: https://github.com/agusmakmun
-about: I am freelance developer. Currently doing more in backend, actually in Python and Django.
-disqus_shortname: stackproblems
+title: (not so) secure apps
+description: Ramblings of a cyber engineer
+author: Ali Clarke
+github: https://github.com/alijnclarke
+about: I'm a cyber security engineer, specialising in mobile platforms.
+disqus_shortname: secureapps-io
 google_analytics: UA-XXXXXXXX-Y
 
 enableTags: true
@@ -20,7 +20,7 @@ social:
     - icon: fa-skype
       link: "#"
     - icon: fa-twitter
-      link: "https://twitter.com/agusmakmun6"
+      link: "https://twitter.com/aliclarke_"
     - icon: fa-linkedin
       link: "#"
     - icon: fa-stack-exchange
@@ -40,7 +40,7 @@ urls:
     - text: XML Feed
       url: /feed.xml
 
-url: "https://agusmakmun.github.io"
+url: "https://alijnclarke.github.io"
 baseurl: ""
 paginate: 20
 per_page: 20
