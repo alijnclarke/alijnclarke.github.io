@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  “Introduction”
+title:  Introduction
 date:   2016-11-10 18:30
 categories: [django]
 ---
