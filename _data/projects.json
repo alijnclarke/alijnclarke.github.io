@@ -1,11 +1,11 @@
 [
 	{
-		"slug": "cool-project",
-		"name": "Cool project 1",
+		"slug": "home-lab",
+		"name": "Home Lab v1",
 		"image": "placeholder.jpg",
 		"url": "https://www.google.com",
-		"date": "Jan 2014",
-		"tags": ["Angular JS","API"]
+		"date": "Nov 2016",
+		"tags": ["Homelab","Servers", "Dell", "pfsense", "R710","R610"]
 	},
 	{
 		"name": "Cool project 2",

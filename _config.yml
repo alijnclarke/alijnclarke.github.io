@@ -1,4 +1,4 @@
-title: (not so) secure apps
+title: alijnclarke.com
 description: Ramblings of a cyber engineer
 author: Ali Clarke
 github: https://github.com/alijnclarke
@@ -36,7 +36,7 @@ urls:
     - text: Projects
       url: /projects/
     - text: Github
-      url: https://github.com/agusmakmun
+      url: https://github.com/alijnclarke
     - text: XML Feed
       url: /feed.xml
 

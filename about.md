@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-I am freelance developer. Currently doing more in backend, actually in Python and Django.
+I'm a cyber security engineer, with a primary focus on iOS.
 
-email: agus[at]python.web.id
+email: mail[at]alijnclarke.com
