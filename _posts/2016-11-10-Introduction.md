@@ -16,7 +16,7 @@ Primarily I’ll post articles that will document how i’ve setup certain bits 
 I’m also a massive Apple fan boy, so expect write-ups and me moaning about other substandard operating systems that i’m forced to come into contact with.
 
 #### My History
-I graduated from a [Russell Group][2]University in 2014 after studying Computer Science, I then joined a graduate scheme at the UK’s largest telco, working in their cyber security practise based in Ipswich of all places…*shudder*.
+I graduated from a [Russell Group][2] University in 2014 after studying Computer Science, I then joined a graduate scheme at the UK’s largest telco, working in their cyber security practise based in Ipswich of all places…*shudder*.
 
 I spent a year there gaining a while load of experience of the inner workings of mobile devices before switching to a large consultancy to work directly with some customers, this allowed me to build my skill set in order to take on my new role as a senior technical lead.
 
