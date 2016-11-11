@@ -22,11 +22,15 @@ The DS916+ (only) has two 1GB network interfaces, these are currently not aggreg
 ![][image-1]
 
 > Volume 1 is exposed to vSphere as *vmNFS01* and Volume 2 is exposed as *vmNFS02* (you guessed it, both over NFS v3).
-vmNFS01 hosts *17 virtual machines* and vmNFS02 hosts *14 virtual machines*, although some vms have bene vMotioned from 1 \> 2, so I’m unsure as to why they are still being listed  and showing as active (any thoughts on this would be welcomed).
-![][image-2]![][image-3]
+
+vmNFS01 hosts *17 virtual machines*
+![][image-2]
+ vmNFS02 hosts *14 virtual machines*
+![][image-3]
 
 
+Although some vms have bene vMotioned from 1 \> 2, so I’m unsure as to why they are still being listed  and showing as active (any thoughts on this would be welcomed).
 
 [image-1]:	/static/img/post-images/syno-storage.png
-[image-2]:	/static/img/post-images/vmNFS01.png
-[image-3]:	/static/img/post-images/vmNFS02.png
+[image-2]:	/static/img/post-images/vmNFS01.png "vmNFS01 hosts *17 virtual machines*"
+[image-3]:	/static/img/post-images/vmNFS02.png " vmNFS02 hosts *14 virtual machines*"
