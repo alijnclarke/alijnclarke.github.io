@@ -5,6 +5,12 @@ date:   2016-11-11 00:45
 categories: [vmware, homelab]
 ---
 
+#### Intro
+I’ve been running a home lab of some description for a little over a year, but only recently have I really ramped up both the amount of virtual machines running and the intensity of those tasks. 
+
+However I’ve never done any assessment of how my storage equipment is dealing with it all.. 
+
+Oh and I’m also trying to convince myself that there is a need for a proper business grade storage solution (thinking FreeNAS with a HBA card linked to an external DAS chassis) and 10Gb networking.
 #### Setup
 
 So currently I’m using two Synology Diskstations as Datastores for my vSphere environment, the primary unit being a DS916+ optioned with 8GB of ram.
