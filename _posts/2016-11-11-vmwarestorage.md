@@ -39,17 +39,24 @@ To start with I’m running an *iperf3* speed test from one of the virtual machi
 I’m first of all going to run the speed test from a virtual machine who’s hard disk is provided by *vmNFS02* (hosted on this nas).
 ![][image-4]
 This gives a rather disappointing result of *368 Mbits/sec*, but we have to remember that this is with the box hosting the datastore for *31* running vms.
+
+So for argument’s sake, here’s the same test ran on a vm which is running on directly attached storage. 
 ![][image-5]
-So for argument’s sake, here’s the same test ran on a vm which is running on directly attached storage. Not much of a difference eh?.. I guess those running vms must be taking their toll!
+Not much difference hey, I guess all those vms are using their fair share of bandwidth!
+
+Before we start shutting vms down there’s one last thing to try, remember I said that *syno01* has two nics? Well one of those is not used at all for vm NFS traffic and is exclusively used for lan user smb and backup traffic.. bingo, let’s try that.
+![][image-6]
+**wow** that’s more like it, so looks like it was the vm traffic saturating the line. It’s still not quite up to the 125 Mb/s you’d expect (at least to peak to), but I’m pretty sure that my IP cameras use that NIC.. so that may explain the missing bandwidth (synology make it very tricky to figure out which applications are using which interface..).
 
 #### Nuke all the vms!
 So I’ve vMotioned or powered down any virtual machine operating on either *vmNFS01* or *vmNFS02* (any datastore on *syno01*.
 I’ve also temporarily disabled other file sharing or bandwidth intensive tasks (hosting my ip camera system for one), just to make sure there is as little pipe saturation as possible.
 
-### Let’s re-run the tests
+##### Let’s re-run the tests
 
 [image-1]:	/static/img/post-images/syno-storage.png
 [image-2]:	/static/img/post-images/vmNFS01.png "vmNFS01 hosts *17 virtual machines*"
 [image-3]:	/static/img/post-images/vmNFS02.png " vmNFS02 hosts *14 virtual machines*"
 [image-4]:	/static/img/post-images/iperf3-1.png
 [image-5]:	/static/img/post-images/iperf3-2.png
+[image-6]:	/static/img/post-images/iperf3-3.png
