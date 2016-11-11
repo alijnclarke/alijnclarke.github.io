@@ -11,4 +11,4 @@ So I’ve been meaning to start writing a blog for a while, by if by *writing* y
 
 ![][image-1]
 
-[image-1]:	/static/img/_posts/syno-storage.png
+[image-1]:	/static/img/post-images/syno-storage.png
