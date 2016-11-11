@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  HomeLabVMware Datastore.. Speeds?
+title:  HomeLab VMware Datastore.. Speeds?
 date:   2016-11-11 00:45
-categories: [vmware,homelab]
+categories: [vmware]
 ---
 
 #### Setup
