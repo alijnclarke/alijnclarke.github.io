@@ -15,16 +15,11 @@ collections:
     permalink: /project/:path/
 
 social:
-    - icon: fa-facebook
-      link: "#"
-    - icon: fa-skype
-      link: "#"
     - icon: fa-twitter
       link: "https://twitter.com/aliclarke_"
     - icon: fa-linkedin
       link: "#"
-    - icon: fa-stack-exchange
-      link: "#"
+
 
 share:
   twitter_username: aliclarke_
