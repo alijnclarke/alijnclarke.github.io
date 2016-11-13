@@ -43,9 +43,12 @@ Otherwise complete the following on each host:
 
 1. Open an SSH session with the host (SSH is disabled by default, but a quick google will reveal how to enable it - do remember to disable it afterwards though).
 
-2. Download the VIB from [here][2]
+2. Download the VIB from [here][2] (link to main page incase direct link fails)
 	{% highlight bash %}
-	wget http://downloads.dell.com/FOLDER02867568M/1/OM-SrvAdmin-Dell-Web-8.1.0-1518.VIB-ESX60i_A00.zip_
+	wget http://downloads.dell.com/FOLDER02867568M/1/OM-SrvAdmin-Dell-Web-8.1.0-1518.VIB-ESX60i_A00.zip
+	unzip
+	cd into dir
+	install vib
 	{% endhighlight %}
 
 [1]:	http://www.dell.com/support/home/us/en/19/Drivers/DriversDetails?driverId=20V28 "here"
