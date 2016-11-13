@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  HomeLab Virtual Machine Datastores
+title:  HomeLab VM Storage (Part 1)
 date:   2016-11-11 00:45
 categories: [vmware, homelab]
 ---
@@ -58,7 +58,7 @@ Before we start shutting vms down there’s one last thing to try, remember I sa
 So I’ve vMotioned or powered down any virtual machine operating on either *vmNFS01* or *vmNFS02* (any datastore on *syno01*.
 I’ve also temporarily disabled other file sharing or bandwidth intensive tasks (hosting my ip camera system for one), just to make sure there is as little pipe saturation as possible.
 
-##### Let’s re-run the tests
+##### To be continued… 
 
 [image-1]:	/static/img/post-images/syno-storage.png
 [image-2]:	/static/img/post-images/vmNFS01.png "vmNFS01 hosts *17 virtual machines*"
