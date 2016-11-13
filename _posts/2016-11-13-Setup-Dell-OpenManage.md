@@ -25,7 +25,7 @@ Obviously you’ll also need the bare metal hypervisors, in this case i’ll be 
 #### Setup
 I’m not going to go into massive levels of detail as these are documented online (I’ll add links to useful resources at the end of this post), but i’ll discuss my setup and any problems I encounter.
 
-###### Stage 1 - OpenManage Web Server
+#### Stage 1 - OpenManage Web Server
 Setup a windows vm that will contain the OpenManage web server, this doesn’t need to be anything massive. 
 ![][image-1]
 2 vCPU and 2 GB of ram should do the trick.
@@ -36,7 +36,7 @@ Check it’s succeeded by navigating to *https://localhost:1311*.
 
 Trying to login won’t work as we haven’t installed the OpenManage VIBs (think plugins) on the ESXI hosts yet.
 
-###### Stage 2 - Installing VIBs
+#### Stage 2 - Installing VIBs
 I’m going to assume that you don’t have vUM installed (vmware update manager), however if you do just download the VIBs and install them using that then move to **Stage 3**
 
 Otherwise complete the following on each host:
