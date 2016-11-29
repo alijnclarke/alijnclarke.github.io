@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How to install PiHole on Ubuntu 16.10 with Active Directory support
-date:   2016-11-11 00:45
+date:   2016-11-29 21:45
 categories: [vmware, homelab, pihole, network]
 ---
 #### What is PiHole?
