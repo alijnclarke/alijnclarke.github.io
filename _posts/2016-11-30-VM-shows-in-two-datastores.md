@@ -9,7 +9,7 @@ Recently I’ve been evacuating all of my virtual machines from one NFS Datastor
 
 As *vmNFS01* is a Synology NAS, I was able to browse to the directory and look to make sure vMotion had indeed moved the files, it had and there was nothing there. Just to be sure I opened up *vm_pool* (Freenas based) and indeed the vm files were there.
 
-**weird**
+weird.
 
 #### The fix
 After a bit of googling I found an article detailing a similar problem on the vmware website (kb 2105343)
