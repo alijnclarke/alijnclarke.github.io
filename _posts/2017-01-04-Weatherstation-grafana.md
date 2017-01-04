@@ -90,5 +90,13 @@ Look for the **[StdRESTful]** block and then configure the **Graphite** entry:
 #### Grafana Dashboard
 I'm going to write a detailed post explaining how to install *InfluxDB* + *Grafana* in *Docker* containers shortly, but here are a few Dashboard's and their associated configuration. I'm very new to Grafana, so I'll update these as I lean how to visualize more data.
 
+The Outdoor temperature graph:
+![][image-1]
+
+The graph's config, you can very easily change the graphed data by adusting the **weewx.outTemp** value (it's a dropdown of all available)
+![][image-2]
+
+
+
 [image-1]:	/static/img/post-images/dashboard/outdoor-temp.png
 [image-2]:	/static/img/post-images/dashboard/outdoor-temp-conf.png
