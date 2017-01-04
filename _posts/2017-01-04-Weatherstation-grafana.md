@@ -98,5 +98,5 @@ The graph's config, you can very easily change the graphed data by adusting the 
 
 
 
-[image-1]:	/static/img/post-images/dashboard/outdoor-temp.png
-[image-2]:	/static/img/post-images/dashboard/outdoor-temp-conf.png
+[image-1]:	/static/img/post-images/dashboard/outdoor-temp.PNG
+[image-2]:	/static/img/post-images/dashboard/outdoor-temp-conf.PNG
