@@ -8,6 +8,7 @@ categories: [weather station, grafana, homelab]
 For Christmas I wanted to buy my stepdad a more 'professional' weather station, as for the last couple of years he's been using cheap stations that kept breaking, and didn't report much data. However he isn't amazingly technical, so I had the idea of combining grafana with the station in order to generate some easy to understand but also useful metrics. I was hoping that by choosing a station with a usb port, I'd be able to connect a Pi and periodically pull the data and then fire it into a backing store.
 
 As per usual I'd left this until a few days before Christmas, so had to limit my search of stations to those available with Amazon Prime (and that had a usb port), I ended up with an *Aercus Instruments WS3083* (priced at £119 at the time of writing).
+
 > https://www.amazon.co.uk/Weather-Station-Wireless-Internet-Beginners/dp/B00C9MFQ1A/ref=sr_1_9?ie=UTF8&qid=1483548381&sr=8-9&keywords=weather+station
 
 ##### Kit List
@@ -17,6 +18,7 @@ As per usual I'd left this until a few days before Christmas, so had to limit my
 
 #### Pi Setup
 I'm going to assume you've got your Pi setup with debian like os and have assigned it a static IP. We need to install a package called *weewx* this bascially interfaces with a range of usb weather stations and allows us to pull data from them, and then send it to various services. Their website is worth a look, as it has a whole range of functions (that we won't be using).
+
 > http://www.weewx.com/
 
 Run the following commands on your Pi, either using sudo or root.
