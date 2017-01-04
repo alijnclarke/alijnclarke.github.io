@@ -17,6 +17,7 @@ As per usual I'd left this until a few days before Christmas, so had to limit my
 - Hardware capable of running the graphing stack (influxDB + grafana)
 
 #### Pi Setup
+
 ##### Software Install
 I'm going to assume you've got your Pi setup with debian like os and have assigned it a static IP. We need to install a package called *weewx* this bascially interfaces with a range of usb weather stations and allows us to pull data from them, and then send it to various services. Their website is worth a look, as it has a whole range of functions (that we won't be using).
 
@@ -86,5 +87,8 @@ Look for the **[StdRESTful]** block and then configure the **Graphite** entry:
     port = 2003    # leave this as default
 {% endhighlight %}
 
+#### Grafana Dashboard
+I'm going to write a detailed post explaining how to install *InfluxDB* + *Grafana* in *Docker* containers shortly, but here are a few Dashboard's and their associated configuration. I'm very new to Grafana, so I'll update these as I lean how to visualize more data.
 
-### Please bare with me as this is a work in progress!
+[image-1]:	/static/img/post-images/dashboard/outdoor-temp.png
+[image-2]:	/static/img/post-images/dashboard/outdoor-temp-conf.png
